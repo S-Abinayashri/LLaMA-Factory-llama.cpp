@@ -1,4 +1,105 @@
 {
+  "pirate_personality": {
+    "file_name": "pirate_personality.json"
+  },
+  "rag_training_demo": {
+    "file_name": "rag_training_demo.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "hai_indexer_rag_training": {
+    "file_name": "hai_indexer_rag_training.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "business_integration_training": {
+    "file_name": "business_integration_training.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "company_kb_no_hallucination": {
+    "file_name": "company_kb_no_hallucination.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "company_kb_training": {
+    "file_name": "company_kb_training.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "entity_classification_training": {
+    "file_name": "entity_classification_training.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "hard_negative_hallucination": {
+    "file_name": "hard_negative_hallucination.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "intro_training": {
+    "file_name": "intro-training.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "operator_training": {
+    "file_name": "operator-training.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "rag_context_training": {
+    "file_name": "rag_context_training.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "safety_guardrails": {
+    "file_name": "safety_guardrails.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
   "identity": {
     "file_name": "identity.json"
   },

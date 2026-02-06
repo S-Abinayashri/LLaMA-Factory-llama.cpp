@@ -46,6 +46,7 @@ class ChatModel:
 
     def __init__(self, args: Optional[dict[str, Any]] = None) -> None:
         model_args, data_args, finetuning_args, generating_args = get_infer_args(args)
+        self.data_args = data_args  # Store for access in run_chat
 
         if model_args.infer_backend == EngineName.HF:
             from .hf_engine import HuggingfaceEngine
@@ -179,6 +180,14 @@ def run_chat() -> None:
 
     chat_model = ChatModel()
     messages = []
+    
+    # Define system prompts based on question type
+    greeting_system = "Respond to user greetings and introduce yourself as HAI Reach agent."
+    rag_system = "You are Hai Indexer, an AI assistant that helps users find information from their indexed documents. Answer questions using the provided context when available, or use your general knowledge for questions not covered in the documents."
+    
+    # Use default_system from config if available, otherwise use rag_system as default
+    default_system = getattr(chat_model.data_args, "default_system", None) or rag_system
+    
     print("Welcome to the CLI application, use `clear` to remove the history, use `exit` to exit the application.")
 
     while True:
@@ -199,11 +208,32 @@ def run_chat() -> None:
             print("History has been removed.")
             continue
 
-        messages.append({"role": "user", "content": query})
+        # Determine if it's a greeting or RAG question
+        query_lower = query.strip().lower()
+        is_greeting = any(
+            query_lower.startswith(greeting) 
+            for greeting in ["good morning", "good afternoon", "good evening", "greetings", "hi", "hello", "hey"]
+        ) or query_lower in ["hi", "hello", "hey"]
+        
+        # Format message to match training format: instruction + "\n" + input
+        if is_greeting:
+            # For greetings: instruction + "\n" + "" (empty input becomes "\n\n")
+            formatted_query = f"{query}\n\n"
+            system = greeting_system
+        else:
+            # For RAG questions: instruction + "\n" + context
+            # Note: In a real RAG system, you would retrieve context here
+            # For now, we'll format it as the model expects but without context
+            # The model should handle questions without context based on its training
+            formatted_query = f"{query}\n\n"
+            system = default_system
+        
+        messages.append({"role": "user", "content": formatted_query})
         print("Assistant: ", end="", flush=True)
 
         response = ""
-        for new_text in chat_model.stream_chat(messages):
+        # Pass system prompt to stream_chat
+        for new_text in chat_model.stream_chat(messages, system=system):
             print(new_text, end="", flush=True)
             response += new_text
         print()

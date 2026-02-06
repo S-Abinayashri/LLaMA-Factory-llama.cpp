@@ -1658,6 +1658,24 @@ register_template(
 )
 
 
+# HAI Indexer custom template with hardcoded system prompt
+register_template(
+    name="hai_indexer",
+    format_user=StringFormatter(slots=["[INST] {{content}}[/INST]"]),
+    format_assistant=StringFormatter(slots=[" {{content}}", {"eos_token"}]),
+    format_system=StringFormatter(slots=["{{content}}\n\n"]),
+    format_function=FunctionFormatter(slots=["[TOOL_CALLS] {{content}}", {"eos_token"}], tool_format="mistral"),
+    format_observation=StringFormatter(slots=["""[TOOL_RESULTS] {"content": {{content}}}[/TOOL_RESULTS]"""]),
+    format_tools=ToolFormatter(tool_format="mistral"),
+    format_prefix=EmptyFormatter(slots=[{"bos_token"}]),
+    default_system=(
+        "You are HAIIndexer, an AI assistant for HaiIntel. Answer using only HaiIntel company knowledge. "
+        "For greetings, introduce yourself as HAI Reach agent. Be helpful, accurate, and professional."
+    ),
+    template_class=Llama2Template,
+)
+
+
 # mistral tokenizer v7 tekken (copied from ministral)
 register_template(
     name="mistral_small",

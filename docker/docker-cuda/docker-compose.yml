@@ -9,7 +9,10 @@ services:
     container_name: llamafactory
     ports:
       - "7860:7860"
-      - "8000:8000"
+      - "8001:8000"
+    volumes:
+      - ../../saves:/app/saves
+      - ../../data:/app/data
     ipc: host
     tty: true
     # shm_size: "16gb"  # ipc: host is set

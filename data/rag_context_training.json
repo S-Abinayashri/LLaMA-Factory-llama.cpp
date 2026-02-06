@@ -1,0 +1,3402 @@
+[
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me %about Regis &St*eve",
+    "input": "VDB: possible match score=0.78; KG entity variants=['S. Regis', 'Steve Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_1",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.6
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell ~me about ~S%teve Regis",
+    "input": "VDB: possible match score=0.9; KG entity variants=['Steev Reegis', 'Regis Steve', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_2",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.66
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me# ab@o#ut S. Regis",
+    "input": "VDB: possible match score=0.9; KG entity variants=['Steev Reegis', 'Regis Steve', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_3",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.82
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Regis& S~%teve",
+    "input": "VDB: possible match score=0.59; KG entity variants=['Regis Steve', 'Stve Rgis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_4",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.8
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about *R#~egis Steve",
+    "input": "VDB: possible match score=0.41; KG entity variants=['Steev Reegis', 'Regis Steve', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_5",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.76
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me abo@ut Stev@e Regi*s",
+    "input": "VDB: possible match score=0.78; KG entity variants=['Steve Regis', 'Stve Rgis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_6",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.67
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Te&l%l me~ about Regis Steve",
+    "input": "VDB: possible match score=0.81; KG entity variants=['S. Regis', 'Regis Steve', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_7",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.73
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about #@Steev Re#egis",
+    "input": "VDB: possible match score=0.51; KG entity variants=['Regis Steve', 'Steve Regis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_8",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.82
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tel%l me about S%teev *Reegis",
+    "input": "VDB: possible match score=0.48; KG entity variants=['Stve Rgis', 'S. Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_9",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.76
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me a#bout St~eve Regis%",
+    "input": "VDB: possible match score=0.71; KG entity variants=['Stve Rgis', 'Regis Steve', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_10",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.85
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me ab%out S.# Regis*",
+    "input": "VDB: possible match score=0.5; KG entity variants=['S. Regis', 'Steev Reegis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_11",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.88
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Te&ll m@e about S#. Regis",
+    "input": "VDB: possible match score=0.93; KG entity variants=['Stve Rgis', 'Regis Steve', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_12",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.79
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Regis& Ste*ve%",
+    "input": "VDB: possible match score=0.68; KG entity variants=['S. Regis', 'Stve Rgis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_13",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.73
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell* me a&bout Ste#ve Regis",
+    "input": "VDB: possible match score=0.89; KG entity variants=['Regis Steve', 'Steve Regis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_14",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.95
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell~ me about~ Stve Rgis#",
+    "input": "VDB: possible match score=0.56; KG entity variants=['Steve Regis', 'Regis Steve', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_15",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.76
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell& me about S. Reg&i@s",
+    "input": "VDB: possible match score=0.74; KG entity variants=['Stve Rgis', 'Steve Regis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_16",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.61
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "&Tell me abou%t S. Regis%",
+    "input": "VDB: possible match score=0.6; KG entity variants=['S. Regis', 'Steve Regis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_17",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.91
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "~Tell me a@bout Steve Reg&is",
+    "input": "VDB: possible match score=0.56; KG entity variants=['Stve Rgis', 'Regis Steve', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_18",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.84
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "T~ell me ab@out& Stve Rgis",
+    "input": "VDB: possible match score=0.59; KG entity variants=['Stve Rgis', 'Steev Reegis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_19",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.82
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me& about @Steev Ree*gis",
+    "input": "VDB: possible match score=0.7; KG entity variants=['Steev Reegis', 'Stve Rgis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_20",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.72
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Te~ll ~me about Steve #Regis",
+    "input": "VDB: possible match score=0.87; KG entity variants=['Stve Rgis', 'Steev Reegis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_21",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.75
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "@Tell me abo%ut Stve R@gis",
+    "input": "VDB: possible match score=0.65; KG entity variants=['Regis Steve', 'S. Regis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_22",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.85
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell m#e abou~t Stee@v Reegis",
+    "input": "VDB: possible match score=0.58; KG entity variants=['Stve Rgis', 'Regis Steve', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_23",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.89
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me #abo*ut Reg@is Steve",
+    "input": "VDB: possible match score=0.66; KG entity variants=['Regis Steve', 'Steev Reegis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_24",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.73
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me@ ab#out& Stve Rgis",
+    "input": "VDB: possible match score=0.61; KG entity variants=['Steve Regis', 'Steev Reegis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_25",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.71
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tel&l me a~bout St#eev Reegis",
+    "input": "VDB: possible match score=0.47; KG entity variants=['Regis Steve', 'S. Regis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_26",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.71
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me ab~o%ut Stee@v Reegis",
+    "input": "VDB: possible match score=0.81; KG entity variants=['Stve Rgis', 'Regis Steve', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_27",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.95
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "T@ell me abo~ut Stve Rgis~",
+    "input": "VDB: possible match score=0.43; KG entity variants=['Steve Regis', 'S. Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_28",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.65
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tel~l m*e a%bout Steev Reegis",
+    "input": "VDB: possible match score=0.46; KG entity variants=['Steev Reegis', 'Regis Steve', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_29",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.91
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell& me about ~Regi@s Steve",
+    "input": "VDB: possible match score=0.48; KG entity variants=['S. Regis', 'Stve Rgis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_30",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.66
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me abo~ut S. Regi%&s",
+    "input": "VDB: possible match score=0.57; KG entity variants=['Regis Steve', 'Steev Reegis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_31",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.77
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Te#ll me about S. @#Regis",
+    "input": "VDB: possible match score=0.67; KG entity variants=['Steve Regis', 'Steev Reegis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_32",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.87
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "~Tell me& abo~ut Steve Regis",
+    "input": "VDB: possible match score=0.65; KG entity variants=['Regis Steve', 'Steev Reegis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_33",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.77
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "#Tell me% abou*t S. Regis",
+    "input": "VDB: possible match score=0.42; KG entity variants=['Stve Rgis', 'S. Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_34",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.6
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Steve %Regi%@s",
+    "input": "VDB: possible match score=0.65; KG entity variants=['Steve Regis', 'S. Regis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_35",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.66
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me abou&t ~%S. Regis",
+    "input": "VDB: possible match score=0.53; KG entity variants=['Steve Regis', 'Regis Steve', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_36",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.9
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Stee*v &R%eegis",
+    "input": "VDB: possible match score=0.45; KG entity variants=['Steev Reegis', 'Regis Steve', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_37",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.88
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Regi~s&~ Steve",
+    "input": "VDB: possible match score=0.86; KG entity variants=['Stve Rgis', 'Regis Steve', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_38",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.84
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell ~me about Regis Stev*e%",
+    "input": "VDB: possible match score=0.82; KG entity variants=['Steev Reegis', 'Regis Steve', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_39",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.71
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "T%ell me about Stee~@v Reegis",
+    "input": "VDB: possible match score=0.42; KG entity variants=['Stve Rgis', 'Regis Steve', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_40",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.93
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Te*#l#l me about Stve Rgis",
+    "input": "VDB: possible match score=0.88; KG entity variants=['Stve Rgis', 'S. Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_41",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.87
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me @%abou~t Stve Rgis",
+    "input": "VDB: possible match score=0.74; KG entity variants=['Steev Reegis', 'Stve Rgis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_42",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.61
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Ste*ve% R%egis",
+    "input": "VDB: possible match score=0.82; KG entity variants=['Stve Rgis', 'Steev Reegis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_43",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.93
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Te&@ll me about# S. Regis",
+    "input": "VDB: possible match score=0.58; KG entity variants=['Stve Rgis', 'Steve Regis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_44",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.73
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Te*ll me& about Stve &Rgis",
+    "input": "VDB: possible match score=0.77; KG entity variants=['Stve Rgis', 'Steev Reegis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_45",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.61
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me a*bout @S.& Regis",
+    "input": "VDB: possible match score=0.72; KG entity variants=['Steev Reegis', 'Regis Steve', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_46",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.82
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell &me a~bout Stve Rgis*",
+    "input": "VDB: possible match score=0.62; KG entity variants=['S. Regis', 'Regis Steve', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_47",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.86
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me@ about& S. *Regis",
+    "input": "VDB: possible match score=0.89; KG entity variants=['Regis Steve', 'S. Regis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_48",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.86
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me a@bout Steev @%Reegis",
+    "input": "VDB: possible match score=0.82; KG entity variants=['Regis Steve', 'S. Regis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_49",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.88
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tel*l me about S~%teve Regis",
+    "input": "VDB: possible match score=0.44; KG entity variants=['Stve Rgis', 'Regis Steve', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_50",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.93
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Stee%v% Re@egis",
+    "input": "VDB: possible match score=0.86; KG entity variants=['S. Regis', 'Stve Rgis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_51",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.67
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me a#bou%t Steev# Reegis",
+    "input": "VDB: possible match score=0.47; KG entity variants=['Stve Rgis', 'S. Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_52",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.87
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Regis@# @Steve",
+    "input": "VDB: possible match score=0.47; KG entity variants=['Steev Reegis', 'S. Regis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_53",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.96
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell& me about #S.# Regis",
+    "input": "VDB: possible match score=0.49; KG entity variants=['Stve Rgis', 'Steev Reegis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_54",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.74
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me @~about Stve Rg%is",
+    "input": "VDB: possible match score=0.95; KG entity variants=['Regis Steve', 'Steve Regis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_55",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.82
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me a~bout &Stev%e Regis",
+    "input": "VDB: possible match score=0.54; KG entity variants=['Regis Steve', 'Steev Reegis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_56",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.97
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me %ab#out &Steve Regis",
+    "input": "VDB: possible match score=0.86; KG entity variants=['Steve Regis', 'S. Regis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_57",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.65
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me ab%out Reg#is Ste#ve",
+    "input": "VDB: possible match score=0.94; KG entity variants=['Regis Steve', 'Steve Regis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_58",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.75
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Stve** Rg*is",
+    "input": "VDB: possible match score=0.83; KG entity variants=['Steev Reegis', 'Stve Rgis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_59",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.84
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me ~abo#*ut Regis Steve",
+    "input": "VDB: possible match score=0.74; KG entity variants=['Regis Steve', 'S. Regis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_60",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.67
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me a&bou~t Regis Stev@e",
+    "input": "VDB: possible match score=0.82; KG entity variants=['Steve Regis', 'Stve Rgis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_61",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.79
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "T#ell me% %about Steev Reegis",
+    "input": "VDB: possible match score=0.47; KG entity variants=['S. Regis', 'Stve Rgis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_62",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.87
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "T*ell me about Reg%is St~eve",
+    "input": "VDB: possible match score=0.5; KG entity variants=['Steve Regis', 'Steev Reegis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_63",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.9
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me* abou&t &S. Regis",
+    "input": "VDB: possible match score=0.88; KG entity variants=['S. Regis', 'Stve Rgis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_64",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.72
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tel*l& me about Steve Re#gis",
+    "input": "VDB: possible match score=0.79; KG entity variants=['Regis Steve', 'Stve Rgis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_65",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.74
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "T*ell me abou*t St*ve Rgis",
+    "input": "VDB: possible match score=0.45; KG entity variants=['Stve Rgis', 'S. Regis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_66",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.74
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me %about R%egis St&eve",
+    "input": "VDB: possible match score=0.42; KG entity variants=['Steev Reegis', 'Regis Steve', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_67",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.77
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "*Tell& me about Steve R#egis",
+    "input": "VDB: possible match score=0.78; KG entity variants=['Steev Reegis', 'S. Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_68",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.82
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tel&%l me about S. Regi#s",
+    "input": "VDB: possible match score=0.68; KG entity variants=['Steve Regis', 'Stve Rgis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_69",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.71
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "@Tell me #abo#ut S. Regis",
+    "input": "VDB: possible match score=0.95; KG entity variants=['Steve Regis', 'Steev Reegis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_70",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.8
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell~ %me abo#ut Stve Rgis",
+    "input": "VDB: possible match score=0.82; KG entity variants=['Regis Steve', 'Stve Rgis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_71",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.85
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "@Tell me about St#eev Reegi~s",
+    "input": "VDB: possible match score=0.57; KG entity variants=['S. Regis', 'Steve Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_72",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.65
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell &me abou*t S. Regi~s",
+    "input": "VDB: possible match score=0.8; KG entity variants=['Steve Regis', 'Stve Rgis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_73",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.64
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me a~@bout Steve R~egis",
+    "input": "VDB: possible match score=0.75; KG entity variants=['S. Regis', 'Regis Steve', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_74",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.66
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about S. Regi&@s&",
+    "input": "VDB: possible match score=0.52; KG entity variants=['Steev Reegis', 'Steve Regis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_75",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.73
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me a%bout St#eev Reeg*is",
+    "input": "VDB: possible match score=0.59; KG entity variants=['Steve Regis', 'Steev Reegis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_76",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.84
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell m#e ab&out Stev&e Regis",
+    "input": "VDB: possible match score=0.65; KG entity variants=['Regis Steve', 'Steev Reegis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_77",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.75
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "@Te&ll me about Stv&e Rgis",
+    "input": "VDB: possible match score=0.87; KG entity variants=['S. Regis', 'Steve Regis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_78",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.7
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "@Tell #me about Regis Ste~ve",
+    "input": "VDB: possible match score=0.79; KG entity variants=['Steev Reegis', 'Steve Regis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_79",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.75
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about %S.~ R#egis",
+    "input": "VDB: possible match score=0.62; KG entity variants=['Stve Rgis', 'Steev Reegis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_80",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.82
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell* me~ about S. Re&gis",
+    "input": "VDB: possible match score=0.42; KG entity variants=['Stve Rgis', 'S. Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_81",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.78
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "#T&ell me* about S. Regis",
+    "input": "VDB: possible match score=0.88; KG entity variants=['Steve Regis', 'S. Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_82",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.92
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me* about Steev #Ree@gis",
+    "input": "VDB: possible match score=0.75; KG entity variants=['Steve Regis', 'Steev Reegis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_83",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.97
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tel%l me a&bout Steev Reeg*is",
+    "input": "VDB: possible match score=0.48; KG entity variants=['S. Regis', 'Steev Reegis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_84",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.79
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me% abou&t S%teev Reegis",
+    "input": "VDB: possible match score=0.63; KG entity variants=['Stve Rgis', 'Steev Reegis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_85",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.79
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me abo@ut S*. @Regis",
+    "input": "VDB: possible match score=0.63; KG entity variants=['S. Regis', 'Steev Reegis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_86",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.96
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me ab~out &S. Regi%s",
+    "input": "VDB: possible match score=0.61; KG entity variants=['S. Regis', 'Steve Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_87",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.66
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell @me abou@t Ste~ve Regis",
+    "input": "VDB: possible match score=0.55; KG entity variants=['Regis Steve', 'Steev Reegis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_88",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.6
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me *about St@eev Reegis~",
+    "input": "VDB: possible match score=0.69; KG entity variants=['Regis Steve', 'Stve Rgis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_89",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.9
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "&&Tell me% about Regis Steve",
+    "input": "VDB: possible match score=0.58; KG entity variants=['Regis Steve', 'Stve Rgis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_90",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.94
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me abou@t Stee%v Ree~gis",
+    "input": "VDB: possible match score=0.94; KG entity variants=['Regis Steve', 'Steve Regis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_91",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.9
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell m~e~ about St#ve Rgis",
+    "input": "VDB: possible match score=0.78; KG entity variants=['S. Regis', 'Steev Reegis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_92",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.91
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me abo#ut S.# Regis~",
+    "input": "VDB: possible match score=0.91; KG entity variants=['S. Regis', 'Regis Steve', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_93",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.75
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Te#ll me abo*ut Stee#v Reegis",
+    "input": "VDB: possible match score=0.71; KG entity variants=['Regis Steve', 'S. Regis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_94",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.97
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me abo~#ut &S. Regis",
+    "input": "VDB: possible match score=0.7; KG entity variants=['Steve Regis', 'Regis Steve', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_95",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.94
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "&Tell me @about S. Regi@s",
+    "input": "VDB: possible match score=0.89; KG entity variants=['Regis Steve', 'Steve Regis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_96",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.82
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about S&t&eve* Regis",
+    "input": "VDB: possible match score=0.74; KG entity variants=['Stve Rgis', 'Steve Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_97",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.84
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me &abo%ut Steve& Regis",
+    "input": "VDB: possible match score=0.88; KG entity variants=['Steve Regis', 'Steev Reegis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_98",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.84
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Steve* Reg~i@s",
+    "input": "VDB: possible match score=0.55; KG entity variants=['Regis Steve', 'Steev Reegis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_99",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.72
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell& me a*bout Stve R~gis",
+    "input": "VDB: possible match score=0.6; KG entity variants=['Regis Steve', 'S. Regis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_100",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.84
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "&Tel&l me about S~teev Reegis",
+    "input": "VDB: possible match score=0.79; KG entity variants=['Regis Steve', 'S. Regis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_101",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.77
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me a*bo%ut Steev %Reegis",
+    "input": "VDB: possible match score=0.72; KG entity variants=['Steve Regis', 'S. Regis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_102",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.8
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Te%*ll me about Re~gis Steve",
+    "input": "VDB: possible match score=0.42; KG entity variants=['S. Regis', 'Stve Rgis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_103",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.74
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me ab%out Steev** Reegis",
+    "input": "VDB: possible match score=0.76; KG entity variants=['Steev Reegis', 'Regis Steve', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_104",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.91
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell~ me @about Regi&s Steve",
+    "input": "VDB: possible match score=0.86; KG entity variants=['Steve Regis', 'Stve Rgis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_105",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.84
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell m*e abou#t S&teve Regis",
+    "input": "VDB: possible match score=0.54; KG entity variants=['Regis Steve', 'Stve Rgis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_106",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.92
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me &a@bou~t Steve Regis",
+    "input": "VDB: possible match score=0.87; KG entity variants=['Steev Reegis', 'S. Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_107",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.7
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "&Tell m&e about %Steev Reegis",
+    "input": "VDB: possible match score=0.67; KG entity variants=['Regis Steve', 'Stve Rgis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_108",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.83
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell m%e %about Regis S@teve",
+    "input": "VDB: possible match score=0.78; KG entity variants=['Steve Regis', 'Steev Reegis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_109",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.89
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me abou@t S*. Regi@s",
+    "input": "VDB: possible match score=0.43; KG entity variants=['S. Regis', 'Steve Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_110",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.85
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me abou&t St%eev R%eegis",
+    "input": "VDB: possible match score=0.6; KG entity variants=['Steve Regis', 'Regis Steve', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_111",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.83
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Te#ll me *about Stve Rgis~",
+    "input": "VDB: possible match score=0.83; KG entity variants=['Stve Rgis', 'Steve Regis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_112",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.9
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "#Te@ll me about Steve% Regis",
+    "input": "VDB: possible match score=0.86; KG entity variants=['Stve Rgis', 'Steve Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_113",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.71
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about &S%tve Rgi#s",
+    "input": "VDB: possible match score=0.7; KG entity variants=['Steve Regis', 'Steev Reegis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_114",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.66
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me &about Re@gis ~Steve",
+    "input": "VDB: possible match score=0.79; KG entity variants=['Steve Regis', 'Steev Reegis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_115",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.9
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about@ Ste~ev &Reegis",
+    "input": "VDB: possible match score=0.63; KG entity variants=['Steve Regis', 'Stve Rgis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_116",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.89
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "@Tell me &about S. Regi@s",
+    "input": "VDB: possible match score=0.57; KG entity variants=['Steev Reegis', 'Steve Regis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_117",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.96
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "@~Tell me about Stve Rg#is",
+    "input": "VDB: possible match score=0.48; KG entity variants=['Steve Regis', 'Stve Rgis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_118",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.87
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell#@ me ~about Regis Steve",
+    "input": "VDB: possible match score=0.81; KG entity variants=['Steve Regis', 'Stve Rgis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_119",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.78
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "T&ell me about Stee%v Reeg@is",
+    "input": "VDB: possible match score=0.8; KG entity variants=['Steve Regis', 'Regis Steve', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_120",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.6
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Te&ll me a@bout Steve Regi*s",
+    "input": "VDB: possible match score=0.86; KG entity variants=['S. Regis', 'Steve Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_121",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.82
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me a@bout Steev Ree%#gis",
+    "input": "VDB: possible match score=0.75; KG entity variants=['Regis Steve', 'Steev Reegis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_122",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.78
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Regis %St#e@ve",
+    "input": "VDB: possible match score=0.44; KG entity variants=['Stve Rgis', 'Steve Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_123",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.81
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me @about Ste&%ev Reegis",
+    "input": "VDB: possible match score=0.9; KG entity variants=['Stve Rgis', 'Steev Reegis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_124",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.7
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me ab~o~ut S. R~egis",
+    "input": "VDB: possible match score=0.6; KG entity variants=['S. Regis', 'Steev Reegis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_125",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.85
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell# me a%bou@t S. Regis",
+    "input": "VDB: possible match score=0.74; KG entity variants=['Steve Regis', 'Regis Steve', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_126",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.9
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Regi#s~ Stev&e",
+    "input": "VDB: possible match score=0.88; KG entity variants=['S. Regis', 'Stve Rgis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_127",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.67
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me* abou~t Stve R&gis",
+    "input": "VDB: possible match score=0.77; KG entity variants=['Steve Regis', 'Stve Rgis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_128",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.73
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tel@l #me abo@ut S. Regis",
+    "input": "VDB: possible match score=0.91; KG entity variants=['S. Regis', 'Steev Reegis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_129",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.76
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me abo~ut~ S. R@egis",
+    "input": "VDB: possible match score=0.65; KG entity variants=['Stve Rgis', 'Steve Regis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_130",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.73
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell *me about R&egi*s Steve",
+    "input": "VDB: possible match score=0.55; KG entity variants=['S. Regis', 'Steve Regis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_131",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.64
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "@Tell me@ about S. Regis#",
+    "input": "VDB: possible match score=0.88; KG entity variants=['Regis Steve', 'Steev Reegis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_132",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.66
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell~ me# abo&ut Stve Rgis",
+    "input": "VDB: possible match score=0.47; KG entity variants=['Steve Regis', 'S. Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_133",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.66
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "T@ell *me about Stev#e Regis",
+    "input": "VDB: possible match score=0.89; KG entity variants=['Stve Rgis', 'S. Regis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_134",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.62
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell m*e about Reg~is Stev&e",
+    "input": "VDB: possible match score=0.86; KG entity variants=['Steve Regis', 'S. Regis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_135",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.81
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me ab%out &Steev Reegis&",
+    "input": "VDB: possible match score=0.7; KG entity variants=['S. Regis', 'Regis Steve', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_136",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.76
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Regis ~St*~eve",
+    "input": "VDB: possible match score=0.92; KG entity variants=['Regis Steve', 'S. Regis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_137",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.63
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me a&bout #Stve Rgis&",
+    "input": "VDB: possible match score=0.66; KG entity variants=['Stve Rgis', 'Steev Reegis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_138",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.66
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell m@e@ abou%t S. Regis",
+    "input": "VDB: possible match score=0.4; KG entity variants=['S. Regis', 'Steev Reegis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_139",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.91
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell &me about St%ve Rgi~s",
+    "input": "VDB: possible match score=0.7; KG entity variants=['Steve Regis', 'S. Regis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_140",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.8
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell %me& about S*teve Regis",
+    "input": "VDB: possible match score=0.75; KG entity variants=['Steve Regis', 'S. Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_141",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.94
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about ~Steev Reeg&i@s",
+    "input": "VDB: possible match score=0.51; KG entity variants=['Regis Steve', 'Stve Rgis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_142",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.91
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Te%ll me ab&out R%egis Steve",
+    "input": "VDB: possible match score=0.84; KG entity variants=['S. Regis', 'Steev Reegis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_143",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.89
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me abo*ut Stee*%v Reegis",
+    "input": "VDB: possible match score=0.8; KG entity variants=['Steev Reegis', 'Steve Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_144",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.77
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell* me about S.* R%egis",
+    "input": "VDB: possible match score=0.78; KG entity variants=['Steev Reegis', 'Steve Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_145",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.77
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell %me about Reg~is@ Steve",
+    "input": "VDB: possible match score=0.86; KG entity variants=['Steev Reegis', 'Steve Regis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_146",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.88
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about @Steve~ &Regis",
+    "input": "VDB: possible match score=0.54; KG entity variants=['Steve Regis', 'S. Regis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_147",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.88
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "T*e*ll me about Stev&e Regis",
+    "input": "VDB: possible match score=0.44; KG entity variants=['Stve Rgis', 'Steev Reegis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_148",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.65
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell m%~e about S@tve Rgis",
+    "input": "VDB: possible match score=0.59; KG entity variants=['S. Regis', 'Regis Steve', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_149",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.67
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me #ab~out S. Regi*s",
+    "input": "VDB: possible match score=0.45; KG entity variants=['Steev Reegis', 'Stve Rgis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_150",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.67
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me &about R%egis Steve~",
+    "input": "VDB: possible match score=0.71; KG entity variants=['Stve Rgis', 'Regis Steve', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_151",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.65
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Te*ll@ me a%bout Steve Regis",
+    "input": "VDB: possible match score=0.94; KG entity variants=['Regis Steve', 'Stve Rgis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_152",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.71
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tel*l me about Regis ~S%teve",
+    "input": "VDB: possible match score=0.42; KG entity variants=['Steve Regis', 'S. Regis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_153",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.72
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "T*ell me& a#bout Steev Reegis",
+    "input": "VDB: possible match score=0.45; KG entity variants=['Steev Reegis', 'Regis Steve', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_154",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.73
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about %Stee%v Re#egis",
+    "input": "VDB: possible match score=0.85; KG entity variants=['Steev Reegis', 'S. Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_155",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.93
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell ##me about Steve# Regis",
+    "input": "VDB: possible match score=0.73; KG entity variants=['Regis Steve', 'S. Regis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_156",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.91
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tel@l me about Steve Regi#s*",
+    "input": "VDB: possible match score=0.45; KG entity variants=['S. Regis', 'Steev Reegis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_157",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.7
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "#Tell me abo*ut Steev Reegi*s",
+    "input": "VDB: possible match score=0.56; KG entity variants=['Regis Steve', 'Stve Rgis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_158",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.9
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "%Tell me abo~ut Regis% Steve",
+    "input": "VDB: possible match score=0.46; KG entity variants=['Steve Regis', 'Steev Reegis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_159",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.74
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell@ me abo@ut St@eve Regis",
+    "input": "VDB: possible match score=0.44; KG entity variants=['Steev Reegis', 'Regis Steve', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_160",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.83
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Te~ll me about Reg%is Ste*ve",
+    "input": "VDB: possible match score=0.86; KG entity variants=['S. Regis', 'Steve Regis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_161",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.76
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "T@ell me about S*teve Reg%is",
+    "input": "VDB: possible match score=0.94; KG entity variants=['Regis Steve', 'S. Regis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_162",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.61
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "T~ell m*e about S. Reg~is",
+    "input": "VDB: possible match score=0.75; KG entity variants=['Steve Regis', 'Steev Reegis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_163",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.92
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me ab#ou*t Regis Ste&ve",
+    "input": "VDB: possible match score=0.92; KG entity variants=['Steve Regis', 'Stve Rgis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_164",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.69
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me ab~ou#t S.@ Regis",
+    "input": "VDB: possible match score=0.68; KG entity variants=['Steev Reegis', 'Regis Steve', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_165",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.69
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Steev R~#e*egis",
+    "input": "VDB: possible match score=0.72; KG entity variants=['Steve Regis', 'Steev Reegis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_166",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.78
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about S. R%e#%gis",
+    "input": "VDB: possible match score=0.87; KG entity variants=['S. Regis', 'Regis Steve', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_167",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.98
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Steev Re~eg&i*s",
+    "input": "VDB: possible match score=0.93; KG entity variants=['Stve Rgis', 'Regis Steve', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_168",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.9
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "&Tel&l m*e about Regis Steve",
+    "input": "VDB: possible match score=0.95; KG entity variants=['Steev Reegis', 'Regis Steve', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_169",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.83
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "&Tell& %me about S. Regis",
+    "input": "VDB: possible match score=0.86; KG entity variants=['S. Regis', 'Steve Regis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_170",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.65
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tel&l me about Steev Reegi@s~",
+    "input": "VDB: possible match score=0.78; KG entity variants=['Stve Rgis', 'Steev Reegis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_171",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.68
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me abou&t Steev R&ee~gis",
+    "input": "VDB: possible match score=0.45; KG entity variants=['Stve Rgis', 'Steve Regis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_172",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.96
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me abo#ut S.~ Regis~",
+    "input": "VDB: possible match score=0.49; KG entity variants=['S. Regis', 'Steve Regis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_173",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.85
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "*Tell me ab%out Steve Regi*s",
+    "input": "VDB: possible match score=0.44; KG entity variants=['Stve Rgis', 'Steve Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_174",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.77
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "T#ell me %@about Stve Rgis",
+    "input": "VDB: possible match score=0.87; KG entity variants=['Steev Reegis', 'S. Regis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_175",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.6
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about St%eev& Reegi@s",
+    "input": "VDB: possible match score=0.46; KG entity variants=['Stve Rgis', 'S. Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_176",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.89
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about S&&teve *Regis",
+    "input": "VDB: possible match score=0.79; KG entity variants=['Steve Regis', 'Stve Rgis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_177",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.76
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Stv~e @Rg*is",
+    "input": "VDB: possible match score=0.75; KG entity variants=['Stve Rgis', 'S. Regis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_178",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.85
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "T%ell me @about Regis Ste#ve",
+    "input": "VDB: possible match score=0.72; KG entity variants=['Regis Steve', 'Steev Reegis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_179",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.97
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tel&l me about Ste~e&v Reegis",
+    "input": "VDB: possible match score=0.65; KG entity variants=['Regis Steve', 'Stve Rgis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_180",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.93
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Ste##ev Ree*gis",
+    "input": "VDB: possible match score=0.76; KG entity variants=['Stve Rgis', 'Steev Reegis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_181",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.91
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Te%ll me %about Stee~v Reegis",
+    "input": "VDB: possible match score=0.88; KG entity variants=['Steve Regis', 'Stve Rgis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_182",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.77
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "~Tell me about Stee*v Reeg*is",
+    "input": "VDB: possible match score=0.69; KG entity variants=['Steev Reegis', 'Steve Regis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_183",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.81
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "T%ell me about Stv@%e Rgis",
+    "input": "VDB: possible match score=0.64; KG entity variants=['Stve Rgis', 'Regis Steve', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_184",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.76
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me abo*ut Steve #Re#gis",
+    "input": "VDB: possible match score=0.94; KG entity variants=['Regis Steve', 'Steev Reegis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_185",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.68
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell* me about Stve& Rgis~",
+    "input": "VDB: possible match score=0.47; KG entity variants=['Regis Steve', 'Steev Reegis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_186",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.79
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell# me& about Steve Regis@",
+    "input": "VDB: possible match score=0.66; KG entity variants=['Steve Regis', 'Stve Rgis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_187",
+      "reasoning_mode": "hierarchical",
+      "complexity": "medium",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.64
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "T%ell me about Reg~is Ste@ve",
+    "input": "VDB: possible match score=0.66; KG entity variants=['S. Regis', 'Regis Steve', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_188",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.78
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell~ m%e about Steev Re&egis",
+    "input": "VDB: possible match score=0.45; KG entity variants=['Regis Steve', 'Stve Rgis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_189",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.76
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Stee#v Ree&gi~s",
+    "input": "VDB: possible match score=0.82; KG entity variants=['Stve Rgis', 'Regis Steve', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_190",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.9
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me ab~out& ~Steev Reegis",
+    "input": "VDB: possible match score=0.52; KG entity variants=['Stve Rgis', 'S. Regis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_191",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.87
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me~ a*bo%ut S. Regis",
+    "input": "VDB: possible match score=0.58; KG entity variants=['Steev Reegis', 'S. Regis', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_192",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.71
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell m*e abo%ut Stev%e Regis",
+    "input": "VDB: possible match score=0.89; KG entity variants=['Stve Rgis', 'Steev Reegis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_193",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.8
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about Stev@e Reg*is*",
+    "input": "VDB: possible match score=0.54; KG entity variants=['S. Regis', 'Steev Reegis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_194",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.65
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me abou#t% Regi%s Steve",
+    "input": "VDB: possible match score=0.57; KG entity variants=['Steve Regis', 'Stve Rgis', 'S. Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_195",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.62
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me ~abo@ut Regis &Steve",
+    "input": "VDB: possible match score=0.61; KG entity variants=['Steve Regis', 'Stve Rgis', 'Regis Steve']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_196",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.84
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about %Steve R*egi%s",
+    "input": "VDB: possible match score=0.76; KG entity variants=['Regis Steve', 'Stve Rgis', 'Steve Regis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_197",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.72
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me about *R%egi&s Steve",
+    "input": "VDB: possible match score=0.93; KG entity variants=['S. Regis', 'Steve Regis', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_198",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.96
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell me ab%out# Regis St*eve",
+    "input": "VDB: possible match score=0.81; KG entity variants=['S. Regis', 'Regis Steve', 'Stve Rgis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_199",
+      "reasoning_mode": "hierarchical",
+      "complexity": "very_high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.91
+    }
+  },
+  {
+    "system": "You are HaiIndexer, resolve entity conflicts using VDB + KG. Prefer highest-confidence structured data.",
+    "instruction": "Tell# me about Steve #Regis*",
+    "input": "VDB: possible match score=0.7; KG entity variants=['S. Regis', 'Regis Steve', 'Steev Reegis']",
+    "output": "Steve Regis is the canonical resolved entity. Providing cleaned, conflict-free interpretation.",
+    "metadata": {
+      "id": "sec8v4_200",
+      "reasoning_mode": "hierarchical",
+      "complexity": "high",
+      "tags": [
+        "ocr_noise",
+        "alias_conflict",
+        "entity_resolution"
+      ],
+      "confidence": 0.88
+    }
+  }
+]

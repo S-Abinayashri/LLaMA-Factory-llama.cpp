@@ -1,0 +1,482 @@
+[
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 1: hallucination prevention question 1",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 1)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 2: hallucination prevention question 2",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 2)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 3: hallucination prevention question 3",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 3)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 4: hallucination prevention question 4",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 4)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 5: hallucination prevention question 5",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 5)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 6: hallucination prevention question 6",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 6)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 7: hallucination prevention question 7",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 7)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 8: hallucination prevention question 8",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 8)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 9: hallucination prevention question 9",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 9)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 10: hallucination prevention question 10",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 10)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 11: hallucination prevention question 11",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 11)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 12: hallucination prevention question 12",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 12)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 13: hallucination prevention question 13",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 13)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 14: hallucination prevention question 14",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 14)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 15: hallucination prevention question 15",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 15)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 16: hallucination prevention question 16",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 16)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 17: hallucination prevention question 17",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 17)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 18: hallucination prevention question 18",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 18)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 19: hallucination prevention question 19",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 19)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 20: hallucination prevention question 20",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 20)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 21: hallucination prevention question 21",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 21)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 22: hallucination prevention question 22",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 22)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 23: hallucination prevention question 23",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 23)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 24: hallucination prevention question 24",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 24)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 25: hallucination prevention question 25",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 25)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 26: hallucination prevention question 26",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 26)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 27: hallucination prevention question 27",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 27)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 28: hallucination prevention question 28",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 28)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 29: hallucination prevention question 29",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 29)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 30: hallucination prevention question 30",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 30)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 31: hallucination prevention question 31",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 31)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 32: hallucination prevention question 32",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 32)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 33: hallucination prevention question 33",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 33)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 34: hallucination prevention question 34",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 34)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 35: hallucination prevention question 35",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 35)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 36: hallucination prevention question 36",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 36)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 37: hallucination prevention question 37",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 37)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 38: hallucination prevention question 38",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 38)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 39: hallucination prevention question 39",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 39)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 40: hallucination prevention question 40",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 40)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 41: hallucination prevention question 41",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 41)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 42: hallucination prevention question 42",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 42)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 43: hallucination prevention question 43",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 43)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 44: hallucination prevention question 44",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 44)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 45: hallucination prevention question 45",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 45)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 46: hallucination prevention question 46",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 46)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 47: hallucination prevention question 47",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 47)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 48: hallucination prevention question 48",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 48)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 49: hallucination prevention question 49",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 49)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 50: hallucination prevention question 50",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 50)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 51: hallucination prevention question 51",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 51)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 52: hallucination prevention question 52",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 52)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 53: hallucination prevention question 53",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 53)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 54: hallucination prevention question 54",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 54)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 55: hallucination prevention question 55",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 55)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 56: hallucination prevention question 56",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 56)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 57: hallucination prevention question 57",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 57)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 58: hallucination prevention question 58",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 58)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 59: hallucination prevention question 59",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 59)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 60: hallucination prevention question 60",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 60)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 61: hallucination prevention question 61",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 61)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 62: hallucination prevention question 62",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 62)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 63: hallucination prevention question 63",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 63)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 64: hallucination prevention question 64",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 64)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 65: hallucination prevention question 65",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 65)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 66: hallucination prevention question 66",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 66)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 67: hallucination prevention question 67",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 67)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 68: hallucination prevention question 68",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 68)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 69: hallucination prevention question 69",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 69)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 70: hallucination prevention question 70",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 70)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 71: hallucination prevention question 71",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 71)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 72: hallucination prevention question 72",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 72)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 73: hallucination prevention question 73",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 73)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 74: hallucination prevention question 74",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 74)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 75: hallucination prevention question 75",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 75)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 76: hallucination prevention question 76",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 76)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 77: hallucination prevention question 77",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 77)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 78: hallucination prevention question 78",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 78)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 79: hallucination prevention question 79",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 79)"
+  },
+  {
+    "system": "You are HAIIndexer. If user asks outside HaiIntel KB, refuse safely.",
+    "instruction": "Negative test 80: hallucination prevention question 80",
+    "input": "",
+    "output": "I don\u2019t have information about this outside HaiIntel knowledge base. Please provide indexed context. (Negative example 80)"
+  }
+]
