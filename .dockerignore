@@ -1,0 +1,22 @@
+.vscode
+.git
+.github
+.venv
+cache
+docker
+hf_cache
+ms_cache
+om_cache
+shared_data
+output
+.dockerignore
+.gitattributes
+.gitignore
+
+# Large training / model artifacts and binaries
+saves
+exports
+offload
+llama.cpp
+trained_with_new_data.tar.gz
+*.tar.gz
